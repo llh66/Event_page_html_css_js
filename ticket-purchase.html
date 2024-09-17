@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="#">SCHEDULE</a>
+            <a href="ticket-purchase.html" class="active">BUY TICKETS</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+    <main>
+        <section id="ticket-form">
+            <label for="input-ticket-type">Ticket Type</label>
+            <select name="input-ticket-type" id="input-ticket-type">
+                <!-- <option value="0">option 1</option>
+                <option value="1">option 2</option> -->
+            </select>
+
+            <label for="input-ticket-quantity">Quantity</label>
+            <input type="number" min="1" name="input-ticket-quantity" id="input-ticket-quantity">
+
+            <label for="input-credit-card-number">Credit Card Number</label>
+            <input type="text" name="input-credit-card-number" id="input-credit-card-number">
+
+            <p id="ticket-error-message-container" class="error-message">
+                <span class="material-symbols-outlined">
+                    warning
+                </span>
+                <span id="ticket-error-message"></span>
+            </p>
+
+            <button id="btn-pay">Pay</button>
+        </section>
+
+        <section id="order-summary">
+            <p>Price per ticket: $<span id="order-summary-ticket-price"></span></p>
+            <p>Number of tickets: <span id="order-summary-ticket-quantity"></span></p>
+            <hr>
+            <p>Subtotal: $<span id="order-summary-subtotal"></span></p>
+            <p>Tax (13%): $<span id="order-summary-tax"></span></p>
+            <hr>
+            <p>Final Price: $<span id="order-summary-final-price"></span></p>
+        </section>
+    </main>
+    <footer></footer>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
