@@ -1,0 +1,46 @@
+#nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: right;
+    margin: 20px;
+}
+.navFormat{
+    text-decoration: none;
+}
+#eventInformation{
+    color: azure;
+    text-align: center;
+    margin-top: 190px;
+    padding: 10px;
+}
+.eventStyle{
+    font-size: 80px;
+}
+
+#artistContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    gap: 20px;
+    justify-content: center;
+}
+#artistPicture{
+    display: flex;
+    gap: 20px;
+    width: 500px;
+
+}
+#artistAbout{
+    display: flex;
+    flex-direction: column;
+
+}
+#footerContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
