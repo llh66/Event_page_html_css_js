@@ -159,3 +159,27 @@ footer span {
     margin: auto 0;
     font-style: italic;
 }
+#ticketsAndPricing{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 300px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: #8A2BE2;
+	align-items: center;
+}
+#passTypesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px;
+}
+#ticketsHeading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
