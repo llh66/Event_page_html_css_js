@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
+
 <body>
-    <main></main>
+    <header>
+        <ul id="nav">
+            <li><a class="navFormat" href="#">Home</a></li>
+            <li><a class="navFormat" href="#">Schedule</a></li>
+            <li><a class="navFormat" href="ticketPricing.html">Buy Tickets</a></li>
+            <li><a class="navFormat" href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div style="background-image: url('anirevo-kv-rave.jpg'); 
+        background-size: cover; height:900px; padding-top:80px;">
+            <div id="eventInformation">
+                <h1 class="eventStyle">AniRevo</h1>
+                <p class="eventStyle">Date: August 9th - 11th</p>
+                <p class="eventStyle">Location: Vancouver Convention Centre</p>
+            </div>
+        </div>
+        <div id ="artistInfo"></div>
+    </main>
     <script type="text/javascript" src="app.js"></script>
 </body>
+<footer>
+
+    <div id = "footerContainer">
+    <div id = "Copright"></div>
+        <span class="material-symbols-outlined">copyright</span>
+        <p>2011 - 2024 Anime Revolution Events Inc.</p>
+        <div id="socialMedia">
+            
+        </div>
+    </div>
+</footer>
+
 </html>
