@@ -25,6 +25,4 @@ const getArtists = () => {
 
 document.addEventListener("DOMContentLoaded", () => {
     getArtists();
-
-    
 });
