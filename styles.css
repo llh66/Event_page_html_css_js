@@ -16,21 +16,21 @@ nav{
     background-color: black;
 }
 nav a{
-    padding: 12px;
+    padding: 18px;
     text-decoration: none;
     color: azure;
     width: 110px;
     text-align: center;
 }
 nav a:hover{
-    background-color: blue;
+    background-color: darkblue;
 }
 .active-nav{
     background-color: rgb(32, 3, 66);
     color: cyan;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
 }
 
@@ -43,11 +43,15 @@ h1 {
 #event-information{
     text-align: center;
     padding: 12px;
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.6);
     border-radius: 60px;
 }
-.event-style{
+.event-title {
     font-size: 60px;
+    color: aqua;
+}
+.event-style{
+    font-size: 48px;
 }
 
 #artist-container{
@@ -153,33 +157,79 @@ footer span {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 12px;
+    gap: 6px;
 }
 .copyright-text {
     margin: auto 0;
     font-style: italic;
 }
+
 #ticketsAndPricing{
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    margin: 20px 300px;
-    border: 2px solid black;
-    border-radius: 6px;
-    background-color: #8A2BE2;
+    padding: 20px 300px;
+    background-color: darkblue;
 	align-items: center;
 }
 #passTypesContainer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 2px solid black;
-    border-radius: 6px;
-    padding: 20px;
-    margin: 20px;
+    gap: 40px;
 }
-#ticketsHeading{
+#tickets-heading-container{
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 400px
+}
+.passesStyling {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 6px;
+    padding: 12px;
+    width: 280px;
+}
+ul {
+    text-align: left;
+    height: 80px;
+    font-size: 13px;
+}
+.buyTickets {
+    padding: 6px;
+    margin: 0 auto 6px auto;
+    border-radius: 24px;
+    background-color: deeppink;
+    width: 150px;
+    border: none;
+}
+.buyTickets a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    color: azure;
+}
+.buyTickets:hover {
+    background-color: darkred;
+}
+.passType {
+    font-size: 24px;
+    margin: 6px 0;
+}
+#ticket-section-description {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 13px;
+}
+#ticket-section-title {
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding: 0;
+}
+.price {
+    color: aqua;
+    font-size: 36px;
+    margin: 6px;
 }
